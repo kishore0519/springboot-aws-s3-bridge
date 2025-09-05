@@ -2,7 +2,13 @@ spring:
   application:
     name: springboot-aws-s3-bridge
 
-
+cloud:
+  aws:
+    credentials:
+      access-key: ${AWS_ACCESS_KEY_ID}
+      secret-key: ${AWS_SECRET_ACCESS_KEY}
+    region:
+      static: ap-south-1
 
     bucket-name: kj1905-bucket
 
