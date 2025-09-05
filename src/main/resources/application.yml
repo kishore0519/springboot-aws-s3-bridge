@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springboot-aws-s3-bridge
+
+
+
+    bucket-name: kj1905-bucket
+
+server:
+  port: 8081
