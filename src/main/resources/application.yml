@@ -10,7 +10,7 @@ cloud:
     region:
       static: ap-south-1
 
-    bucket-name: kj1905-bucket
+    bucket-name: ${bucket-name}
 
 server:
   port: 8081
